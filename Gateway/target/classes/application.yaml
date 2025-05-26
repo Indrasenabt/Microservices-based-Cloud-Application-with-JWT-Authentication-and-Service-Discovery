@@ -1,0 +1,11 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: Gateway
+
+eureka:
+  client:
+    register-with-eureka: false   # Don't register itself
+    fetch-registry: false         # Doesn't fetch registry from itself
